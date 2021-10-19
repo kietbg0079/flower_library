@@ -46,7 +46,7 @@ def create_model():
     resnet101_model.summary()
 
     resnet101_model.compile(optimizer=adam, loss='categorical_crossentropy', metrics=['accuracy'])
-    resnet101_model.load_weights('weights.h5')
+    resnet101_model.load_weights('flower_weight.h5')
 
     return resnet101_model
 
