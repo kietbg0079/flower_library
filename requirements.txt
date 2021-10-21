@@ -2,3 +2,4 @@ tensorflow==2.6.0
 numpy==1.19.5
 Flask
 Werkzeug
+simple_image_download
